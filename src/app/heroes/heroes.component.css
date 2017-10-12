@@ -52,3 +52,29 @@
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+
+ul.heroes {
+  float: left
+}
+
+.hero-details {
+  display: inline-block;
+  margin-left: .5em;
+  padding-left: .5em;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background-color: #eee;
+}
+
+.hero-details h2 {
+  text-align: center;
+  margin: .2em .8em;
+}
+
+.hero-details button {
+  left: 50%;
+  position:relative;
+  margin: .2em -50px;
+}
+
+
